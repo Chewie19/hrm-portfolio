@@ -6,35 +6,20 @@
   <title>HRM Portfolio</title>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      background: #0d0f12;
-    }
-    .frame-clip {
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #0d0f12; }
+    iframe {
+      display: block;
       width: 100vw;
       height: 100vh;
-      overflow: hidden;
-      position: relative;
-    }
-    iframe {
-      position: absolute;
-      top: -45px;
-      left: 0;
-      width: 100%;
-      height: calc(100vh + 45px);
       border: none;
     }
   </style>
 </head>
 <body>
-  <div class="frame-clip">
-    <iframe
-      src="https://script.google.com/macros/s/AKfycbzFDZP19exJIwZwKiXw0nl8mZiW9Msf9kAifkt9nHR7ieBbR5o0F5uND_fpD4ojTanF/exec"
-      title="HRM Portfolio"
-      allowfullscreen>
-    </iframe>
-  </div>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbzFDZP19exJIwZwKiXw0nl8mZiW9Msf9kAifkt9nHR7ieBbR5o0F5uND_fpD4ojTanF/exec"
+    title="HRM Portfolio"
+    allowfullscreen>
+  </iframe>
 </body>
 </html>
